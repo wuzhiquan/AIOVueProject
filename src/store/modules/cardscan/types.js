@@ -1,0 +1,22 @@
+// actions
+export const Scan = 'cardscan/scan'
+export const Add = 'cardscan/add'
+export const Update = 'cardscan/update'
+export const Del = 'cardscan/del'
+export const FetchList = 'cardscan/fetchList'
+export const BindAlbum = 'cardscan/bindAlbum'
+export const ChooseCamera = 'cardscan/chooseCamera'
+export const TransferToCRM = 'cardscan/transferToCRM'
+// mutaions
+export const AddBeforeList = 'cardscan/addBeforeList'
+export const AddAfterList = 'cardscan/addAfterList'
+export const UpdateToList = 'cardscan/updateToList'
+export const DelFromList = 'cardscan/delFromList'
+export const EmptyList = 'cardscan/emptyList'
+export const ResetCond = 'cardscan/resetCond'
+export const UpdateStatusToList = 'cardscan/updateStatusToList'
+// getters
+export const ListKeyIds = 'cardscan/listKeyIds'
+export const IncreaseCondPage = 'cardscan/increaseCondPage'
+export const DecreaseCondPage = 'cardscan/decreaseCondPage'
+export const StatusEnum = 'cardscan/statusEnum'
